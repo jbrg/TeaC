@@ -14,7 +14,7 @@ int secondsSince(struct timespec *start) {
 
 int main(int argc, char *argv[]) {
   // default delay
-  int delay = 5;
+  int delay = 150;
 
   // eller angiven delay
   if (argc > 1) {
